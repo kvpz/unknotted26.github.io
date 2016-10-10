@@ -1,16 +1,14 @@
----
+---      
 defaults:
-  # _posts
+  # _pages
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
----
+      
+permalink: /index.html
+----------------------
 
 This is the index markdown file!
