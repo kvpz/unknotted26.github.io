@@ -8,7 +8,7 @@ defaults:
       layout: single
       author_profile: true
       
-permalink: /index.html
+permalink: /testPage.html
 ---
 
-This is the index markdown file!
+This is the testPage markdown file!
