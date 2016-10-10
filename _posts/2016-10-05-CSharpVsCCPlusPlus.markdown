@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "C# vs C/C++"
-categories: jekyll update
+categories: Blog <!-- jekyll update  - this affects URL file path -->
 ---
 
 In my first few days coding in C# I probably wrote more code than I would have written in one week using C/C++. The C# language itself and the amount of
