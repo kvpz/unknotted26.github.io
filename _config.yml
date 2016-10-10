@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "My Test Test Title"
+title                    : "My Website"
 title_separator          : "-"
 name                     : "Kevin Perez"
 description              : "An amazing website."
@@ -54,8 +54,6 @@ alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
-twitter:
-  username               :
 facebook:
   username               :
   app_id                 :
@@ -77,11 +75,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Kevin Perez"
   avatar           : "bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  location         : "Florida"
+  email            : "unknotted26@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -89,15 +87,15 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
-  google_plus      :
+  github           : "https://www.github.com/unknotted26"
+  google_plus      : "Coming soon"
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "Coming soon"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  stackoverflow    : "Coming soon" # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
   twitter          :
@@ -110,8 +108,8 @@ author:
 # Reading Files
 include:
   - .htaccess
-  - _pages
-  - _posts
+#  - _pages
+#  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
