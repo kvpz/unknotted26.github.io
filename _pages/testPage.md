@@ -2,7 +2,7 @@
 defaults:
   # _pages
   - scope:
-      path: "pages"
+      path: ""
       type: pages
     values:
       layout: single

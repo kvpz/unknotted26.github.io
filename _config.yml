@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : "Kevin Perez"
 description              : "An amazing website."
 url                      : "https://unknotted26.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/unknotted26.github.io" # the subpath of your site, e.g. "/blog"
+baseurl                  : # "/unknotted26.github.io" # the subpath of your site, e.g. "/blog"
 repository               : "unknotted26/unknotted26.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
