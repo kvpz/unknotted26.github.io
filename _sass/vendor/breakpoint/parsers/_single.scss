@@ -1,7 +1,7 @@
 //////////////////////////////
 // Import Pieces
 //////////////////////////////
-@import "single/default";
+@import "single/_default";
 
 @function breakpoint-parse-single($feature, $empty-media, $first) {
   $parsed: '';
