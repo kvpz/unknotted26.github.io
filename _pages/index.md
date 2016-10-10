@@ -9,6 +9,6 @@ defaults:
       author_profile: true
       
 permalink: /index.html
-----------------------
+---
 
 This is the index markdown file!
