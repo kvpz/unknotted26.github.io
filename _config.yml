@@ -222,8 +222,8 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
-      type: posts
+      path: "" # for all files in the project 
+      type: posts # for post types as specified in YAML front matter
     values:
       layout: single
       author_profile: true
