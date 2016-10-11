@@ -77,31 +77,22 @@ analytics:
 author:
   name             : "Kevin Perez"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "I need a job"
   location         : "Florida"
   email            : "unknotted26@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           :
   facebook         :
   foursquare       :
-  github           : "https://www.github.com/unknotted26"
-  google_plus      : "Coming soon"
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         : "Coming soon"
+  github           : "unknotted26"
+  google_plus      : "109741372710520854401"
+  linkedin         : "kevinperez2
+"
   pinterest        :
   soundcloud       :
-  stackoverflow    : "Coming soon" # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
-  steam            :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
+  stackoverflow    : "6052174/kevin-perez" # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   youtube          :
 
 
