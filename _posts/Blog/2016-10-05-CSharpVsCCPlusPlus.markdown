@@ -8,7 +8,7 @@ type: post
 In my first few days coding in C# I probably wrote more code than I would have written in one week using C/C++. The C# language itself and the amount of
 useful libraries provided for it (.NET, ..etc. lol) have made me more productive.
 
-## Differences I've noticed between C/C++ and C\#
+# Differences between C/C++ and C\#
 
 1) C# is not compiled to assembly, but to the Microsoft Intermediate Language. A benefit of this is not having to recompile
 for different platforms. C# can be compiled once to obtain the Common Language Runtime(CLR) which can compile just-in-time during
@@ -25,11 +25,11 @@ runtime.
 instead of during compilation,
 
 
-### Miscellaneous
+## Miscellaneous
 
-#### Similarities
+### Similarities
 
-#### Differences
+### Differences
 
 - Every method and variable needs to be encapsulated in a class making C# a strongly object-oriented language. In other words, C# doesn't allow global variables or method definitions/ prototypes.
 - Arrays of all data types in C# have the field Length which returns the size of the array. In C, the length of an array is determined by sizeof, but it does not always work.
@@ -53,8 +53,8 @@ and in C++ classes, member data are implicitly private unless it is below an acc
 - C# requires the 'new' keyword to create an object, or instance of a class. In C++ this can be avoided and an object would be considered an "automatic variable" meaning that it will be
 deleted upon going out of scope.
 
-### C\# Collections vs C++ STL
-#### std::queue vs. Collections.Generic.Queue
+## C\# Collections vs C++ STL
+### std::queue vs. Collections.Generic.Queue
 C++ definition
 - template <class T, class Container = deque<T> > class queue
 
