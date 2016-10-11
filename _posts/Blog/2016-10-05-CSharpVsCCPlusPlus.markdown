@@ -1,16 +1,9 @@
 ---
 
-<<<<<<< HEAD
-# layout: post
-# title: "C# vs C/C++"
-# categories: Blog
-
-=======
 layout: post
 title: "C# vs C/C++"
 categories: Blog
 permalink: /Blog/CSharpVsCCPlusPlus
->>>>>>> 3c7c4e7993c49beb1762a8a0259b4440ab2271af
 ---
 
 In my first few days coding in C# I probably wrote more code than I would have written in one week using C/C++. The C# language itself and the amount of
