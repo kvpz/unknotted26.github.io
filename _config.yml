@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "My Website"
+title                    : "Kevin's Webspace"
 title_separator          : "-"
 name                     : "Kevin Perez"
-description              : "An amazing website."
+description              : "This is a website (description)."
 url                      : "https://unknotted26.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : "unknotted26/unknotted26.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
