@@ -3,7 +3,8 @@
 # layout: post
 # title: "C# vs C/C++"
 # categories: Blog
-permalink: /Blog/CSharpVsCCPlusPlus
+# permalink: /Blog/CSharpVsCCPlusPlus
+
 ---
 
 In my first few days coding in C# I probably wrote more code than I would have written in one week using C/C++. The C# language itself and the amount of
