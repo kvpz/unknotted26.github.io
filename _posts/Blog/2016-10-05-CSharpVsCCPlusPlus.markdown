@@ -56,6 +56,6 @@ deleted upon going out of scope.
 ## C\# Collections vs C++ STL
 ### std::queue vs. Collections.Generic.Queue
 C++ definition
-- template <class T, class Container = deque<T> > class queue
+-template <class T, class Container = deque<T> > class queue
 
 
