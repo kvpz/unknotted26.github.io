@@ -1,8 +1,8 @@
 ---
 
-# layout: post
-# title: "C# vs C/C++"
-# categories: Blog
+layout: post
+title: "C# vs C/C++"
+categories: Blog
 
 ---
 
