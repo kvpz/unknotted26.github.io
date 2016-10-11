@@ -52,3 +52,6 @@ equals 12 whereas sizeof(carr) equals 3, since char is equal to 1 byte and and i
 and in C++ classes, member data are implicitly private unless it is below an access modifier of another type.
 - C# requires the 'new' keyword to create an object, or instance of a class. In C++ this can be avoided and an object would be considered an "automatic variable" meaning that it will be
 deleted upon going out of scope.
+
+### C\# Collections vs C++ STL
+
