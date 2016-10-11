@@ -54,4 +54,8 @@ and in C++ classes, member data are implicitly private unless it is below an acc
 deleted upon going out of scope.
 
 ### C\# Collections vs C++ STL
+#### std::queue vs. Collections.Generic.Queue
+C++ definition
+- template <class T, class Container = deque<T> > class queue
+
 
