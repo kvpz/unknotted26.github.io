@@ -15,9 +15,15 @@ for different platforms. C# can be compiled once to obtain the Common Language R
 runtime.
 
 2) In C# implicit casting is not allowed.
+{% highlight C %}
+  bool = true;
+  int i = 1;
+  if (bool == i) printf("TRUE"); // this would not be true in C#
+{% endhighlight %}
 
 3) C# is a managed language. Compared to C, it is not native nor interpreted, the compiler generates no assembly code (see MSIL, CLR, JIT), optimizations occur at runtime
 instead of during compilation,
+
 
 ### Miscellaneous
 
