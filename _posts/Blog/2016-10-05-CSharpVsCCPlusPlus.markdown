@@ -1,8 +1,8 @@
 ---
 
 # layout: post
-title: "C# vs C/C++"
-categories: Blog
+# title: "C# vs C/C++"
+# categories: Blog
 permalink: /Blog/CSharpVsCCPlusPlus
 ---
 
