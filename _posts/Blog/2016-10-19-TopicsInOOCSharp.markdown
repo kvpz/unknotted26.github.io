@@ -20,6 +20,9 @@ An access modifier is a keyword assigned to classes, structs, interfaces, and me
 **protected internal**: This data can be accessed only within the same assembly *and* within an inheriting class in another assembly.
 
 # Inheritance
+Inheritance is used when a class is similar to another class but has its differences. For example, a class called Honda can inherit from a class called Cars since a Honda would have everything a typical car would have such as tires, windows, and engine, etc. 
+
+Inheritance is a good technique for following the **D**on't **R**epeat **Y**ourself software development principal.
 
 # Polymorphism
 
