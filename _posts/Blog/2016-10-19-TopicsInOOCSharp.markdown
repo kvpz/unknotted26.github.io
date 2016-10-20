@@ -7,12 +7,17 @@ I assume that the reader of this post already knows the basics about objects and
 This post will dive into their nitty-gritty details.
 
 # Access Modifiers
-An access modifier is a keyword assigned to classes, structs, interfaces, and member data to warrant where it may be used in the codebase. More details with examples later. First I'd like to introduce some important keywords.
-*public*: When code is refered to as public, it means that it can be accessed anywhere within the codebase or assemblies (that use its namespace).
-####protected:
-####private:
-####internal: 
-####protected internal:
+An access modifier is a keyword assigned to classes, structs, interfaces, and member data to warrant where it may be used in the codebase. More details with examples later. First, I'd like to introduce the keywords used as access modifiers.
+
+**public**: When code is refered to as public, it means that it can be accessed anywhere within the codebase or assemblies (that use its namespace).
+
+**protected**: This is similar to the private modifier but not as strict. Protected data is private to the client of the class, just as private data, *but* it is not private to a class that is inheriting from it. Thus, the benefits of this are only seen when using inheritance.
+
+**private**: This data can only be accessed by other data within the class (for example, a class' functions can access private data).
+
+**internal**: 
+
+**protected internal**:
 
 # Inheritance
 
