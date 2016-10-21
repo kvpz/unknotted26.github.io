@@ -28,9 +28,16 @@ Inheritance is a good technique for following the **D**on't **R**epeat **Y**ours
 
 # Polymorphism
 This topic can not be fully discussed without inheritance so please make sure you understand that first. 
-The purposes of polymorphism is to extend or change the functionality of a function while using the same or similar function signature. Hence the name polymorphism where "poly" means that the function can take different forms, or have a varying definition/ implementation, and "-morphism" such that function implementation can be modified. Don't let the "fancy" name intimidate you.
+The purposes of polymorphism is to extend or change the functionality of a function while using the same or similar function signature. Hence the name polymorphism where "poly" means that the function can take different forms, or have a varying definition/ implementation, and "-morphism" such that function implementation can be modified. I hope this makes the subject less intimidating.
 
-There are two types of polymorphism: static(early binding) & Dynamic. Static polymorphism is associated with operator and function overloading. 
+There are two types of polymorphism: static & dynamic. **Static polymorphism** is associated with operator and function overloading which intuitively makes sense since static implies fixed code, which occurs at compile time (i.e. early binding), and function overloading is handled by then.
+{% highlight C# %}
+class TestClass {
+  public void func(double a, double b) {...}  // function overloaded
+  public void func(int a, int b) {...}  // function overloaded
+  public static TestClass operator+(TestClass a, TestClass b) {...}  // operator overloading
+}
+{% endhighlight %}
 
 **abstract**: this modifier is used with classes, methods, properties, indexers, and events in order to state that their implementation is incomplete or missing. Data members marked as abstract or included in an abstract class must be implemented by the inheriting class.
 
