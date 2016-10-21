@@ -35,4 +35,4 @@ Inheritance is a good technique for following the **D**on't **R**epeat **Y**ours
 https://msdn.microsoft.com/en-us/library/ms173121.aspx "Access Modifiers"
 http://www.cplusplus.com/doc/tutorial/inheritance/ "Inheritance in C++"
 http://www.cplusplus.com/doc/tutorial/polymorphism/ "Polymorphism in C++"
-
+https://msdn.microsoft.com/en-us/library/ms973875.aspx "Variable & Method Scope"
