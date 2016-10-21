@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "Kevin's Webspace"
 title_separator          : "-"
 name                     : "Kevin Perez"
-description              : "This is a website (description)."
+description              : "This website is dedicated to blogs about C#, C, C++, Ruby, and whatever else may come to mind."
 url                      : "https://unknotted26.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : "unknotted26/unknotted26.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -77,7 +77,7 @@ analytics:
 author:
   name             : "Kevin Perez"
   avatar           : "Bio-Image.jpg"
-  bio              : "I need a job"
+  bio              : "I'm still waiting for someone to write my biography."
   location         : "Florida"
   email            : "unknotted26@gmail.com"
   uri              :
@@ -100,7 +100,7 @@ author:
 include:
   - .htaccess
   - _pages
-#  - _posts
+  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
