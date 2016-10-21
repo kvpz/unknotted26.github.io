@@ -1,5 +1,5 @@
 ---
-title: "Topics in Object Oriented C#"
+title: "Topics in Object Oriented C#: Inheritance, Polymorphism, & Access Modifiers"
 categories: Blog
 type: post
 ---
