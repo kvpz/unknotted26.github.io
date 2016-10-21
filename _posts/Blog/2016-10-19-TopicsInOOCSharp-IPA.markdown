@@ -13,11 +13,13 @@ An access modifier is a keyword assigned to classes, structs, interfaces, and me
 
 **protected**: This is similar to the private modifier but not as strict. Protected data is private to the client of the class, just as private data, *but* it is not private to a class that is inheriting from it. Thus, the benefits of this are only seen when using inheritance.
 
-**private**: This data can only be accessed by other data within the class (for example, a class' functions can access private data). This is the least permissive access level. *Member data within a class is defaulted to private!*
+**private**: This data can only be accessed by other data within the class (for example, a class' functions can access private data). This is the least permissive access level. *Note:* Member data within a class is defaulted to private! 
 
 **internal**: This data can be accessed only within the same assembly.
 
 **protected internal**: This data can be accessed only within the same assembly *and* within an inheriting class in another assembly.
+
+To differentiate which access modifier a data member can have, you must discern the scope it lies within. The surrounding scope must have an equivalent or greater *accessibility* than what the data would be assigned. Otherwise, an Inconsistent Accessibility error will arise. 
 
 # Inheritance
 Inheritance is used when a class is similar to another class but has its differences. For example, a class called Honda can inherit from a class called Cars since a Honda would have everything a typical car would have such as tires, windows, and engine, etc. 
