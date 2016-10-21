@@ -2,7 +2,7 @@
 title: C# Gems & Subtleties
 Category: Blog
 Type: Post
-font-size: 1.0em
+font-size: 0.8em
 ---
   
 After several sightings of unconventional & idea provoking C# code, I've decided to amalgamate these sources and maybe elaborate these gems.
