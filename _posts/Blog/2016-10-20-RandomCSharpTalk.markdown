@@ -1,5 +1,6 @@
 ---
-title: c# Gems
+title: C# Gems & Subtleties
+Category: Blog
 Type: Post
 ---
 
