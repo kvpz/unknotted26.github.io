@@ -3,7 +3,9 @@ title: C# Gems & Subtleties
 Category: Blog
 Type: Post
 ---
-
+.my-definition
+  font-size: 1.0em
+  
 After several sightings of unconventional & idea provoking C# code, I've decided to amalgamate these sources and maybe elaborate these gems.
 
 **Expression functions**... what are they? They are a new and short way for expressing that a variable returns a value.  Also, because of Intellisense, I noticed that expression functions are considered *properties*. http://www.kunal-chowdhury.com/2014/12/csharp-6-expression-bodied-method.html#mgykar31jw6Rgewb.97
