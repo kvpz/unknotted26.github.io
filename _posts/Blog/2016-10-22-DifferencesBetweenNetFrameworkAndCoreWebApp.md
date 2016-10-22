@@ -2,7 +2,7 @@
 title: ASP.NET Web Application - .NET Core vs .NET Framework
 categories: Blog
 type: post
-layout: single
+layout: splash
 ---
 
 Note: I'm using Visual Studio 2015 Community.
