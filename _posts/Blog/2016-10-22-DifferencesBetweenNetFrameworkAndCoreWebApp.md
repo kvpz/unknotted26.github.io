@@ -6,4 +6,4 @@ type: post
 
 Note: I'm using Visual Studio 2015 Community.
 
-![ASP.NET Web Application (.NET Framework) @ project selection window](https://www.github.com/unknotted26/unknotted26.github.io/images/ASPNETWebApp-NetFramwork.png)
+![ASP.NET Web Application (.NET Framework) @ project selection window](/images/ASPNETWebApp-NetFramwork.png)
