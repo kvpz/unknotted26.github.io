@@ -16,7 +16,7 @@ Note: I'm using Visual Studio 2015 Community.
 ##### ASP.NET Core Web App (.Net Core) project files
 ![](/images/ASPNETCOREWebApp-projfiles.png)
 
-<figure class = "half">
+<figure class="half">
   <a href="/images/ASPNETWebApp-NoCore-projfiles1.png"><img src="/images/ASPNETWebApp-NoCore-projfiles1.png"></a>
   <a href="/images/ASPNETWebApp-NoCore-projfiles2.png"><img src="/images/ASPNETWebApp-NoCore-projfiles2.png"></a>
   <figcaption>Files for ASP.Net Web Application (.Net Framework)</figcaption>
