@@ -4,3 +4,5 @@ categories: Blog
 type: post
 ---
 
+Note: I'm using Visual Studio 2015 Community.
+
