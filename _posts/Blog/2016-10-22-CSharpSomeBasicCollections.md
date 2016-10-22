@@ -1,6 +1,5 @@
 ---
-title: Some Basic C# Collections
+title: C# Data Structures (aka Collections)
 categories: Blog
 type: post
 ---
-# C# Data Structures (aka Collections)
