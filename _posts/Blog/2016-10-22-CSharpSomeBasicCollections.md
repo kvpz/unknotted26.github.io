@@ -110,6 +110,20 @@ class BinaryTree<T> : Node<T>
 
 I think the reason why classes that inherit from Collection can utilize the provided methods as if they were their own is because Collection implements them as extension methods.
 
+### (Jagged Arrays)[https://msdn.microsoft.com/en-us/library/2s05feca.aspx] vs Multidimensional Arrays
+To those who can't decide why whether to use jagged or multidimensional arrays, for better performance, use jagged arrays.
+
+A jagged array is essentially an array of arrays. When it comes to initializing a jagged array, you have to initialize arrays in order to put them within the array... Let me show you.
+{% highlight c# %}
+int[][] jagwrong = new int[10][30]; // ERROR
+int[][] jagarr = new int[size][];
+for(int i = 0; i < size; ++i)
+  jagarr[i] = new int[];
+{% endhighlight %}
+Why is the initialization of *jagwrong* incorrect? I think (i.e. take this with a grain of salt) that calling int[10][30] is like telling the compiler: assign 10 int-sized spots in the (contiguous) memory that *new* was so nice to find for us, then can you perhaps assign each of those 10 spots with 30 spots of int-sized memory? The compiler is not going to like that. It is also just part of the rules of C# and I guess the compiler writers didnt want to implement something like this. 
+
+There is another solution in C# however that can allow you to simulate what you are trying to do. The solution is multidimensional arrays; and the reason why they simulate arrays of arrays of arrays... is because multidimensional arrays stores the elements contiguously (in one connected block of memory).
+
 ### Boxing vs Unboxing
 
 
