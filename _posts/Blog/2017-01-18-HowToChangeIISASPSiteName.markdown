@@ -1,6 +1,6 @@
 ---
 permalink: /Blog/IISandChangingASPsiteName
-title: "How to Change a Site's name on IIS"
+title: "How to Change a Site's Name on IIS"
 categories: Blog
 type: post
 ---
