@@ -15,6 +15,7 @@ url                      : "https://unknotted26.github.io" # the base hostname &
 baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : "unknotted26/unknotted26.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -30,12 +31,12 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : # "master", "gh-pages"
+  branch                 : "master"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
   moderation             : true
-  path                   : "_data/comments/{options.slug}"
+  path                   : "docs/_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
   requiredFields         : ['name', 'email', 'message']
   transforms:
     email                : "md5"
@@ -88,14 +89,12 @@ author:
   foursquare       :
   github           : "unknotted26"
   google_plus      : "109741372710520854401"
-  linkedin         : "kevinperez2
-"
+  linkedin         : "kevinperez2"
   pinterest        :
   soundcloud       :
   stackoverflow    : "6052174/kevin-perez" # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   youtube          :
-
-
+  
 # Reading Files
 include:
   - .htaccess
@@ -125,6 +124,8 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -219,15 +220,16 @@ compress_html:
     envs: development
 
 
-defaults:
+# Defaults:
   # _posts
   - scope:
-      path: "" # for all files in the project 
-      type: posts # for post types as specified in YAML front matter
-    values:
+      path: ""      # for all files in the project 
+      type: posts   # for post types as specified in YAML front matter
+
+values:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: # true
       share: true
       related: true

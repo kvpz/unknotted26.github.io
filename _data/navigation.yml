@@ -1,11 +1,10 @@
-# main links links
+# main links
 main:
   - title: "About Me"
-    url:
+    url: https://ideallyconnected.me
     
   - title: "Resume"
     url: https://unknotted26.github.io/Resume
     
   - title: "Blog"
     url: https://unknotted26.github.io/Blog
-
