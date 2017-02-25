@@ -1,5 +1,5 @@
 ---
-title: Get Root Access through emacs
+title: "Get Root Access through emacs"
 categories: Blog
 type: post
 ---
