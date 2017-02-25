@@ -219,9 +219,8 @@ compress_html:
   ignore:
     envs: development
 
-
-# Defaults:
-  # _posts
+Defaults:
+ _posts
   - scope:
       path: ""      # for all files in the project 
       type: posts   # for post types as specified in YAML front matter
