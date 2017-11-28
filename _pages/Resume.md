@@ -7,6 +7,7 @@ defaults:
       
 permalink: /Resume.html
 ---
+
 <!-- saved from url=(0100)https://fsu-csm.symplicity.com/utils/resume_preview.php?rbid=0e2657b8cb9440fb468eaae279b2a51d&html=1 -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="./resume_preview.php_files/container.css" media="all">
 <link rel="stylesheet" type="text/css" href="./resume_preview.php_files/carousel.css" media="all">
@@ -177,94 +178,177 @@ h2 {
 li {line-height: 125%; list-style-type:disc;}
 </style>
 </head>
-<body>
-<div id="resume_view">
-
-    	<div id="0e2657b8cb9440fb468eaae279b2a51d" class="inlineEditable resume_personalinfo center">
+  <body>
+    <div id="resume_view">
+      <!-- Resume header -->
+      <div id="0e2657b8cb9440fb468eaae279b2a51d" class="inlineEditable resume_personalinfo center">
         <h1 id="resume_heading" class="times twelvept one bold">Kevin  Perez</h1>
-							        <div class="resume_contact">(786)282-1521  | unknotted26@gmail.com </div>
-		
+	<div class="resume_contact"> <a href="https://portfolio.ideallyconnected.me">portfolio.ideallyconnected.me</a>   |   k p e r e z AT openmailbox [.] org </div>	
+      </div>
+
+      <!-- Education -->
+      <div class="inlineEditable resume_section left border-bottom-none border-color-black one25" id="bfe9c805cb6a39b2eec130b7779be970">
+        <h2 class="times twelvept left one25 bold">EDUCATION</h2>
+        <div id="education_subsection_fsu" class="inlineEditable resume_subdiv border-bottom-none border-color-gray">
+	  <div id="6faf0d02b291e10392a9246da1b72680" class="inlineEditable resume_subsec resume_subsec_first">
+            <div class="">
+	      <div>
+		<span class="resume_organization">FLORIDA STATE UNIVERSITY , </span>
+		<span class="resume_location">TALLAHASSEE, FL</span>
+	      </div>
+	      <div>
+		<span class="resume_role">Applied and Computational Mathematics, Computer Science</span><span class="resume_dates">, NO DEGREE</span>
+	      </div>
+	    </div>
+            <div class="resume_textblock"><strong>Coursework included:&nbsp;</strong>Data Structures &amp; Algorithms, Objected Oriented Programming in C++, Database Systems, Computer Architecture, iOS Development, Numerical Analysis
+	      <ul>
+		<li> Began programming in 2013 developing CLI programs and later iOS mobile apps with Objective-C </li>
+		<li> Implemented numerical methods to visualize and approximate solutions for problems such as the Lorenz system</li>
+	      </ul> 
+	    </div>	    
+	  </div>
+	  
+	  <div id="education_subsection_cs50" class="inlineEditable resume_subsec resume_subsec_last">
+            <div class="">
+	      <div>
+		<span class="resume_organization">THE IDEA CENTER  CS50XMIAMI, </span>
+		<span class="resume_location">MIAMI, FL</span>
+	      </div>
+	      <div>
+		<span class="resume_role">Certification</span><span class="resume_dates">, June 13-November 4, 2016</span>
+	      </div>
+	    </div>
+            <div class="resume_textblock">
+	      A course from Harvard covering&nbsp;C, Javascript, and PHP and a subsequent 6-week specialized track based on C# and ASP.NET development.
+	      <ul>
+		<li> Image manipulation such as resizing and copying BMPs and recovering JPEGs from corrupt memory blocks  </li>
+		<li> Completed a simple HTTP server and gained a thorough understanding of the OSI model </li>
+	      </ul>
+	    </div>
+          </div>
 	</div>
-    	<div id="resume_sections">
-	        <div class="inlineEditable resume_section resume_section_first left border-bottom-none border-color-black one25" id="96c226cdc293b71b26cebf1d3faca427">
-        	<h2 class="times twelvept left one25 bold">PROGRAMMING SKILLS</h2>        	        	        		<div class="resume_textblock "><strong>Programming Languages</strong><br><em>Currently working with</em>: C/C++, C#, BASH<br><em>Previously worked with</em>: Objective-C, Ruby, Java, MIPS, Javascript<br><strong>Development Environments</strong><br>• Visual Studio, Xcode, Emacs, Qt Creator, Windows, Linux Ubuntu, OSX (UNIX)<strong><br>HackerRank</strong>: https://www.hackerrank.com/unknotted26 (obtained a bronze medal)<br><strong>GitHub:&nbsp;</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;https://www.github.com/unknotted26 (school assignments are private)</div>
-        	        	        </div>
-	        <div class="inlineEditable resume_section left border-bottom-none border-color-black one25" id="ec7f0034d9ef12edc02d4f49a7f955d1">
-        	<h2 class="times twelvept left one25 bold">PROJECTS</h2>        					<div id="890db4473333f0224a268c8aa38811f7" class="inlineEditable resume_subdiv border-bottom-none border-color-gray">				<div id="890db4473333f0224a268c8aa38811f7" class="inlineEditable resume_subsec resume_subsec_first">
-        					<div class="">
-				<div>
-					<span class="resume_organization"></span>
-									</div>
-				<div>
-				<span class="resume_role resume_role_workexp">Social Computing Hosted Web App</span><span class="resume_dates">, in progress</span>
-				</div>
-			</div>
-                	                		<div class="resume_textblock ">An ASP.NET Web API built upon Entity Framework 6 where user data is stored and later used to make visual data analytics using the Javascript D3.js library. The analytics are being implemented as a Single Page App (SPA) in an MVC view via AngularJS. The end goal will be a hosted web app which can be distributed as a UWP app following URI activation.</div>
-                	        		        						</div>
-				</div>        					<div id="7d5549540c4f9cbbec141734551b2c84" class="inlineEditable resume_subdiv border-bottom-none border-color-gray">				<div id="7d5549540c4f9cbbec141734551b2c84" class="inlineEditable resume_subsec">
-        					<div class="">
-				<div>
-					<span class="resume_organization"></span>
-									</div>
-				<div>
-				<span class="resume_role resume_role_workexp">Numerical Method Solver</span><span class="resume_dates">, in progress</span>
-				</div>
-			</div>
-                	                		<div class="resume_textblock ">Implemented numerical methods (in C++) on a desktop app that could solve a system of equations and explicitly explain an algorithm's output. I overcame the challenged of creating precompiled libraries via CMake and resolving portability issues between them and the Qt Platform. The goal is to re-implement and improve the numerical methods I completed during the my Numerical Analysis university courses.&nbsp;</div>
-                	        		        						</div>
-				</div>        					<div id="4150fe835c3ccb6c0e3a05b07cd7c629" class="inlineEditable resume_subdiv border-bottom-none border-color-gray">				<div id="4150fe835c3ccb6c0e3a05b07cd7c629" class="inlineEditable resume_subsec">
-        					<div class="">
-				<div>
-					<span class="resume_organization"></span>
-									</div>
-				<div>
-				<span class="resume_role resume_role_workexp">Large Sparse Matrix Solver</span><span class="resume_dates">, Summer 2015 (completed)</span>
-				</div>
-			</div>
-                	                		<div class="resume_textblock ">A command line program that can parse&nbsp;large matrices and store only the nonzero values in a hash table. I implemented the dot product for sparse matrices and vectors which is reduced from a third order polynomial time to linear. This was part of an Algorithms course where we spent the semester implementing creating a custom C++ STL.</div>
-                	        		        						</div>
-				</div>        									<div id="87c24407183050f2efcfed8529d273a5" class="inlineEditable resume_subsec resume_subsec_last">
-        					<div class="">
-				<div>
-					<span class="resume_organization"></span>
-									</div>
-				<div>
-				<span class="resume_role resume_role_workexp">iOS Photo Feed App</span><span class="resume_dates">, Fall 2015 (completed)</span>
-				</div>
-			</div>
-                	                		<div class="resume_textblock ">A team project where we developed a photo feed app similar to Instagram. User photos, location, and description were stored on a remote database using the Parse API. My role was to bind photos to the news feed. Developed using Objective-C.</div>
-                	        		        						</div>
-				        	        	        	        </div>
-	        <div class="inlineEditable resume_section left border-bottom-none border-color-black one25" id="bfe9c805cb6a39b2eec130b7779be970">
-        	<h2 class="times twelvept left one25 bold">EDUCATION</h2>        					<div id="c29a580468e7ac74df482b8d4cc2a6cc" class="inlineEditable resume_subdiv border-bottom-none border-color-gray">				<div id="c29a580468e7ac74df482b8d4cc2a6cc" class="inlineEditable resume_subsec resume_subsec_first">
-        					<div class="">
-				<div>
-					<span class="resume_organization">THE IDEA CENTER  CS50XMIAMI, </span>
-					<span class="resume_location">MIAMI, FL</span>				</div>
-				<div>
-				<span class="resume_role">Certification</span><span class="resume_dates">, June 13-November 4, 2016</span>
-				</div>
-			</div>
-                	                		<div class="resume_textblock ">A course from Harvard covering&nbsp;C, Javascript, and PHP and a subsequent 6-week specialized track based on C# and ASP.NET development.</div>
-                	        		        						</div>
-				</div>        									<div id="6faf0d02b291e10392a9246da1b72680" class="inlineEditable resume_subsec resume_subsec_last">
-        					<div class="">
-				<div>
-					<span class="resume_organization">FLORIDA STATE UNIVERSITY , </span>
-					<span class="resume_location">TALLAHASSEE, FL</span>				</div>
-				<div>
-				<span class="resume_role">Bachelors, Applied and Computational Mathematics, Computer Science</span><span class="resume_dates">, April 2017</span>
-				</div>
-			</div>
-                	                		<div class="resume_textblock "><strong>Coursework included:&nbsp;</strong>Data Structures &amp; Algorithms, Objected Oriented Programming in C++, Database Systems, Computer Architecture, iOS Development, Numerical Analysis</div>
-                	        		        						</div>
-				        	        	        	        </div>
-	        <div class="inlineEditable resume_section resume_section_last left border-bottom-none border-color-black one25" id="c24ddf2d9bbcd1b72ff98f1821734d12">
-        	<h2 class="times twelvept left one25 bold">CAREER OBJECTIVE</h2>        	        	        		<div class="resume_textblock ">I've been spending the last few months writing code by learning new languages, algorithms, and software development paradigms. Sometimes I may not understand a related topic with ease, but I remain persistent. Persevere and you'll eventually see results. Solving difficult problems is stimulating and enjoyable for me. I'm knowledgeable about several programming languages and computer science topics, but I have yet to hone my skills in one particular area. Because I'm mostly self-taught and enthralled by Computer Science, I think I would make a good apprentice and team member.</div>
-        	        	        </div>
-					</div>
-</div>
+      </div>
+
+      <!-- Work Experience -->
+      <div class="inlineEditable resume_section left border-bottom-none border-color-black one25" id="work_experience">
+	<h2 class="times twelvept left one25 bold">WORK EXPERIENCE</h2>
+	<div id="work_subsection_mohtv" class="inlineEditable resume_subdiv border-bottom-none border-color-gray">
+	  <div id="6faf0d02b291e10392a9246da1b72680" class="inlineEditable resume_subsec resume_subsec_first">
+            <div class="">
+	      <div>
+		<span class="resume_organization">MOHTV, </span>
+		<span class="resume_location">Television Technician</span>
+		<span class="resume_dates">, August 3, 2017 - current</span>
+	      </div>
+	    </div>
+            <div class="resume_textblock">
+	      <ul>
+		<li> Repair CRT, projection, plasma and LED televisions using basic knowledge of Electrical Engineering for diagnosing and hacking  </li>
+	      </ul> 
+	    </div>	    
+	  </div>
+	  
+	  <div id="work_subsection_southmotors" class="inlineEditable resume_subsec resume_subsec_last">
+            <div class="">
+	      <div>
+		<span class="resume_organization">South Motors, </span>
+		<span class="resume_location">Sales & Marketing Intern</span>
+		<span class="resume_dates">, June 5, 2017 - July 28, 2017</span>
+	      </div>
+	    </div>
+            <div class="resume_textblock">
+	      <ul>
+		<li> Improved organic SEO and created employee pages for dealer websites; improved online presence   </li>
+		<li> Created web-scraper with C# with Scrappy API for quicker data entry </li>
+	      </ul>
+	    </div>
+          </div>
+	</div>
+      </div>
+
+      <!-- Technical Skills -->
+      <div class="inlineEditable resume_section left border-bottom-none border-color-black one25" id="work_experience">
+	<h2 class="times twelvept left one25 bold">Skills</h2>
+	<div id="work_subsection_mohtv" class="inlineEditable resume_subdiv border-bottom-none border-color-gray">
+	  <div id="6faf0d02b291e10392a9246da1b72680" class="inlineEditable resume_subsec resume_subsec_first">
+            <div class="">
+	      <div>
+		<span class="resume_organization">Programming Languages: </span>
+		<span>C, C++, BASH, C#, Javascript, HTML, CSS, MySQL, Ruby, Objective-C, MIPS, PHP, Java</span>
+	      </div>
+	      <div>
+		<span class="resume_organization">Software: </span>
+		<span>MSSQL Server, Git, VirtualBox, VMWare, Visual Studio, Xcode, Emacs, Valgrind, SSH Clients, GNU Plot,
+                 Wireshark, Fiddler, Tableau, Qt Creator, Excel, DD-WRT and Tomato router firmware interfaces</span>
+	      </div>
+	      <div>
+		<span class="resume_organization">Operating Systems: </span>
+		<span>power user of GNU/Linux (Debian & Red Hat) across various flavors, Windows, FreeBSD, OSX </span>
+	      </div>
+	      <div>
+		<ul>
+		  <li>6 months of experience with .NET 4.x/ Core creating Windows Forms utilizing databases </li>
+		  <li>Experience using unfamiliar APIs with minimal documentation or abstractions as seen in an RFC </li>
+		  <li>Strong understanding of object-oriented and relational database design using generic & template programming techniques</li>
+		</ul>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+      </div>
+
+      <!-- Projects -->
+      <div class="inlineEditable resume_section left border-bottom-none border-color-black one25" id="projects">
+	<h2 class="times twelvept left one25 bold">Projects</h2>
+	<div id="projects_subsection_textanalysis" class="inlineEditable resume_subdiv border-bottom-none border-color-gray">
+	  <div id="6faf0d02b291e10392a9246da1b72680" class="inlineEditable resume_subsec resume_subsec_first">
+            <div class="">
+	      <div>
+		<span class="resume_organization">Text Analysis, </span>
+		<span>C++</span>
+		<ul>
+		  <li>Implemented an API with custom uni/multi-ordered & -unordered set containers replicating C++ STL functionality.  </li>
+		  <li>Created a word parser with specified grammar that is utilized upon reading text files from CLI batch or at runtime. </li>
+		</ul>
+	      </div>
+	      <div>
+		<span class="resume_organization">Sparse Matrix API, </span>
+		<span>C++</span>
+		<ul>
+		  <li>Implemented a hash table and Matrix API replicating the unordered map in the C++ STL</li>
+		  <li>Reduced the average space complexity for matrices from squared to linear using a custom hash table</li>
+		  <li>Reduced the average dot product operation from an average cubic time to average linear time operation</li>
+		</ul>
+	      </div>
+	      <div>
+		<span class="resume_organization">TV Parts Search Tool, </span>
+		<span>C</span>
+		<ul>
+		  <li>CLI tool and minimal web interface for querying various websites containing TV parts to improve business</li>
+		  <li>Designed following the UNIX philosophy to ease testing and development </li>
+		  <li>Utilized cURL for HTTP requests and an HTML scrapper API </li>
+		</ul>
+	      </div>
+	      <div>
+		<span class="resume_organization">iOS Photo Feed App, </span>
+		<span>Objective-C</span>
+		<ul>
+		  <li>Used the Parse API to store user photos, location, and text on a remote database</li>
+		  <li>Created a UI similar to Instagram’s that displays photos taken with the app’s camera feature</li>
+		</ul>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+      </div>      
+      
+      
+      </div>
+    </div>
 
 
-<script language="javascript" type="text/javascript">var menuitems = [{"id":"1","value":"Objective"},{"id":"10","value":"Action Words"},{"id":"3","value":"Experience"},{"id":"5","value":"Professional Experience"},{"id":"7","value":"Computer Skills"},{"id":"9","value":"Activities \/ Memberships"},{"id":"2","value":"Skills \/ Abilities"},{"id":"4","value":"Education"},{"id":"6","value":"Relevant Experience"},{"id":"8","value":"Honors \/ Awards"}];</script><script type="text/javascript" src="./resume_preview.php_files/resumebuilder2.js.download"></script>
-</body></html>
+      <script language="javascript" type="text/javascript">
+	var menuitems = [{"id":"1","value":"Objective"},{"id":"10","value":"Action Words"},{"id":"3","value":"Experience"},{"id":"5","value":"Professional Experience"},{"id":"7","value":"Computer Skills"},{"id":"9","value":"Activities \/ Memberships"},{"id":"2","value":"Skills \/ Abilities"},{"id":"4","value":"Education"},{"id":"6","value":"Relevant Experience"},{"id":"8","value":"Honors \/ Awards"}];</script><script type="text/javascript" src="./resume_preview.php_files/resumebuilder2.js.download">
+      </script>
+  </body>
+</html>
