@@ -6,7 +6,7 @@ type: post
 
 The world of .NET Collections
 
-### IList<T> Generic Interface
+### IList&lt;T&gt; Generic Interface
 This interface is an abstraction that allows list types to be used through a single
 reference type. Using it we can create a single method to receive, for example, an T[] or List<T>.
 The reason for this is because they can be implicitly cast to their base interface IList<T>.
@@ -110,7 +110,7 @@ class BinaryTree<T> : Node<T>
 
 I think the reason why classes that inherit from Collection can utilize the provided methods as if they were their own is because Collection implements them as extension methods.
 
-### (Jagged Arrays)[https://msdn.microsoft.com/en-us/library/2s05feca.aspx] vs Multidimensional Arrays
+### [Jagged Arrays](https://msdn.microsoft.com/en-us/library/2s05feca.aspx) vs Multidimensional Arrays
 To those who can't decide why whether to use jagged or multidimensional arrays, for better performance, use jagged arrays.
 
 A jagged array is essentially an array of arrays. When it comes to initializing a jagged array, you have to initialize arrays in order to put them within the array... Let me show you.
@@ -132,9 +132,9 @@ Stable sort vs unstable sort: if the keys of two elements are equal, a stable so
 
 A cool thing about interfaces is that you can declare an interface object and assign that object whatever class that inherites from that interface. For example, IList obj = new List(); This is useful
 technique when implementing similar methods with similar parameters and using only one object instead of multiple. It's a form of polymorphism.
-See dependency injections[https://en.wikipedia.org/wiki/Dependency_injection] where a dependency is a service (can be reused by different clients for different purposes), and an injection is 
-the passing of a dependency to a dependent object (a client) that would use it. In the above example, obj is the client being passed th List service.
+Breaking what is a [dependency injections](https://en.wikipedia.org/wiki/Dependency_injection), a dependency is a service (i.e. it can be used by different clients for different purposes), and an injection is the action of 
+passing a dependency to an dependent object (a client) that would use it. In the above example, `obj` is the client being passed th List service.
 
-Resources
+#### Resources
 
 [Object and Collection Initializers](https://msdn.microsoft.com/en-us/library/bb384062.aspx) 
