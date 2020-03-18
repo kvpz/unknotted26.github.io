@@ -135,5 +135,6 @@ technique when implementing similar methods with similar parameters and using on
 See dependency injections[https://en.wikipedia.org/wiki/Dependency_injection] where a dependency is a service (can be reused by different clients for different purposes), and an injection is 
 the passing of a dependency to a dependent object (a client) that would use it. In the above example, obj is the client being passed th List service.
 
-Resources\
-[https://msdn.microsoft.com/en-us/library/bb384062.aspx] Object and COllection Initializers
+Resources
+
+[Object and Collection Initializers](https://msdn.microsoft.com/en-us/library/bb384062.aspx) 
